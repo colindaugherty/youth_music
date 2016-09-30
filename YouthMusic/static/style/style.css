@@ -39,6 +39,10 @@ ul li {
   list-style: none;
 }
 
+.spotify_play_link {
+  font-size: 12pt;
+}
+
 /* Suggested Tracks */
 #tracks_already_suggested_section {
   position: absolute;
