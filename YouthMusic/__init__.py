@@ -6,13 +6,5 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
-@app.route("/test")
-def test():
-    return render_template('index.html')
-
-@app.route("/test2")
-def test2():
-    return render_template('index2.html')
-
 if __name__ == "__main__":
     app.run()
