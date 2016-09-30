@@ -1,0 +1,171 @@
+/*
+
+Starting from a mobile view and then slowly getting bigger
+
+*/
+
+/* Body code */
+
+body {
+  background: linear-gradient(90deg, #650B3E, #0B6633);
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 16pt;
+  color: #a3a3a3;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input, textarea, input:focus, textarea:focus, button {
+  font-size: 32px;
+  width: 70%;
+  border: 0;
+  outline: 0;
+  background: inherit;
+  color: white;
+}
+
+/* Link code */
+
+a:visited, a:link {
+  color: #a3a3a3;
+}
+
+a:hover {
+  color: #7F7F7F;
+}
+
+ul li {
+  list-style: none;
+}
+
+/*
+
+Start the Media Queries
+
+*/
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- Galaxy S5 ----------- */
+
+/* Portrait */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+
+}
+
+/* Suggested Tracks */
+#tracks_already_suggested_section {
+  position: absolute;
+  left: 73%;
+  bottom: 1%;
+  width: 350px;
+  height: 650px;
+  text-align: center;
+  font-size: 18pt;
+  padding: 0px;
+}
+
+#suggested_tracks {
+  overflow-y: scroll;
+  height: 75%;
+}
+
+/* Voting Buttons */
+#voting {
+  color: #999999;
+}
+
+#voteup, #votedown {
+  padding-left: 5px;
+  padding-right: 5px;
+}
