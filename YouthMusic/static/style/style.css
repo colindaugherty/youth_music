@@ -98,11 +98,11 @@ Start the Media Queries
     #tracks_already_suggested_section {
       position: absolute;
       left: 70%;
-      bottom: 75%;
+      bottom: 50%;
       width: 25%;
       height: 50%;
       text-align: center;
-      font-size: 22pt;
+      font-size: 28pt;
       padding: 0px;
     }
 
@@ -192,7 +192,7 @@ Start the Media Queries
 
 /* Track */
 ::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(128,128,128,0.3);
+    -webkit-box-shadow: inset 0 0 6px rgba(105,105,105,0.3);
     -webkit-border-radius: 10px;
     border-radius: 10px;
 }
@@ -201,9 +201,9 @@ Start the Media Queries
 ::-webkit-scrollbar-thumb {
     -webkit-border-radius: 10px;
     border-radius: 10px;
-    background: rgba(128,128,128,0.8);
-    -webkit-box-shadow: inset 0 0 6px rgba(128,128,128,0.5);
+    background: rgba(105,105,105,0.8);
+    -webkit-box-shadow: inset 0 0 6px rgba(105,105,105,0.5);
 }
 ::-webkit-scrollbar-thumb:window-inactive {
-	background: rgba(128,128,128,0.4);
+	background: rgba(105,105,105,0.4);
 }
