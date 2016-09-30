@@ -17,7 +17,7 @@ body {
 }
 
 input, textarea, input:focus, textarea:focus, button {
-  font-size: 32px;
+  font-size: 32pt;
   width: 70%;
   border: 0;
   outline: 0;
@@ -40,7 +40,7 @@ ul li {
 }
 
 .spotify_play_link {
-  font-size: 12pt;
+  font-size: 14pt;
 }
 
 /* Suggested Tracks */
