@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% block head %}
+  <meta charset="utf-8">
+  <title>Youth Music {% block title %}{% endblock %}</title>
+  <link rel="stylesheet" href="{{url_for('static', filename='style/pace.css')}}">
+  <link rel="stylesheet" href="{{url_for('static', filename='style/style.css')}}">
+  <link href='http://fonts.googleapis.com/css?family=Montserrat|Lato:400,700,400italic,900' rel='stylesheet' type='text/css'>
+  <script src="https://use.fonticons.com/19d37d2e.js"></script>
+  <meta name="description" content="Youth Music Voting, and worship voting.">
+  <meta name="keywords" content="Youth, Voting, Music">
+  {% endblock %}
+</head>
+<body>
+  <div id="content">{% block content %}{% endblock %}</div>
+  <div id="footer"><p>This is a small application built by <b>Colin Daugherty</b> The purpose is to have an application to make picking songs for any event extremely easy. If you need help, click <a href="{{url_for('help')}}">here</a>. It should be fairly simple to figure out. If you want to make any feature requests, please email me at <a href="mailto:cdaug1228@gmail.com">cdaug1228@gmail.com</a></p><p id="copyright">This is copyrighted by Colin Daugherty &copy 2016</p></div>
+  </div>
+</body>
+</html>
