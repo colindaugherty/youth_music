@@ -112,6 +112,7 @@ Start the Media Queries
     }
 
     #results {
+      font-size: inherit;
       width: 50%;
     }
 }
