@@ -112,8 +112,12 @@ Start the Media Queries
     }
 
     #results {
-      font-size: inherit;
+      font-size: 28pt;
       width: 50%;
+    }
+
+    .spotify_play_link {
+      font-size: 16pt;
     }
 }
 
