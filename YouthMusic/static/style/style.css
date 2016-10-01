@@ -44,7 +44,7 @@ ul li {
 }
 
 /* Suggested Tracks */
-/*#tracks_already_suggested_section {
+#tracks_already_suggested_section {
   position: absolute;
   left: 70%;
   bottom: 10%;
@@ -58,7 +58,7 @@ ul li {
 #suggested_tracks {
   overflow-y: scroll;
   height: 75%;
-}*/
+}
 
 /* Voting Buttons */
 #voting {
@@ -95,13 +95,13 @@ Start the Media Queries
       width: 50%;
     }
 
-    /*#tracks_already_suggested_section {
+    #tracks_already_suggested_section {
       position: absolute;
       left: 70%;
-      bottom: 50%;
+      bottom: auto;
       width: 25%;
       height: 50%;
-      text-align: center;
+      text-align: left;
       font-size: 28pt;
       padding: 0px;
     }
@@ -109,7 +109,7 @@ Start the Media Queries
     #suggested_tracks {
       overflow-y: scroll;
       height: 50%;
-    }*/
+    }
 }
 
 /* Landscape */
