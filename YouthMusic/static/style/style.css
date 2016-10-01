@@ -110,6 +110,10 @@ Start the Media Queries
       overflow-y: scroll;
       height: 50%;
     }
+
+    #results {
+      width: 50%;
+    }
 }
 
 /* Landscape */
