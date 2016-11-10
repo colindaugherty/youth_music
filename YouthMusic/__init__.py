@@ -1,5 +1,5 @@
 from flask import Flask, flash, render_template, request, session, redirect, url_for
-from flask.ext.login import LoginManager, UserMixin, current_user, login_user, logout_user
+from flask_login import LoginManager, UserMixin, current_user, login_user, logout_user
 
 app = Flask(__name__)
 
