@@ -72,7 +72,11 @@ def index():
 
 @app.route("/worship")
 def worship():
+    pass
 
+@app.route("/help")
+def help():
+    pass
 
 if __name__ == "__main__":
     app.run()
