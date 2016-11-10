@@ -75,9 +75,9 @@ ul li {
   padding-right: 5px;
 }
 
-#footer {
+/*#footer {
   font-size: 10pt;
-}
+}*/
 
 /*
 
@@ -224,4 +224,8 @@ Start the Media Queries
 }
 ::-webkit-scrollbar-thumb:window-inactive {
 	background: rgba(105,105,105,0.4);
+}
+
+#footer {
+  font-size: 10pt;
 }
