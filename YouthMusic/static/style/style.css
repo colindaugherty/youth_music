@@ -1,6 +1,11 @@
 /*
 
-Starting from a mobile view and then slowly getting bigger
+Starting from my computer screen, then adjusting.
+Order is-
+ •My laptop (~a 14in screen)
+ •Phones
+ •Laptops
+ •TVs/Monitors
 
 */
 
@@ -68,6 +73,10 @@ ul li {
 #voteup, #votedown {
   padding-left: 5px;
   padding-right: 5px;
+}
+
+#footer {
+  font-size: 10pt;
 }
 
 /*
