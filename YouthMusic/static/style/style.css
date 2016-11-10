@@ -94,6 +94,10 @@ Start the Media Queries
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
+    #title {
+      text-align: center;
+    }
+
     body {
       font-size: 22pt;
       margin-left: auto;
