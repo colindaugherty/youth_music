@@ -14,7 +14,10 @@
 </head>
 <body>
   <div id="content">{% block content %}{% endblock %}</div>
-  <div id="footer"><p>This is a small application built by <b>Colin Daugherty</b> The purpose is to have an application to make picking songs for any event extremely easy. If you need help, click <a href="{{url_for('help')}}">here</a>. If you want to make any feature requests, please email me.</p><p id="copyright">This is copyrighted by <a href="mailto:cdaug1228@gmail.com">Colin Daugherty</a> &copy 2016</p></div>
+  <div id="footer"><p>Created by Colin Daugherty. If you need help, click <a href="{{url_for('help')}}">here</a>. If you want to make any feature requests, please email me.</p><p id="copyright">This is copyrighted by <a href="mailto:cdaug1228@gmail.com">Colin Daugherty</a> &copy 2016</p></div>
+  {% if cookie == false %}
+    <script src="{{url_for('static', filename='script/script.css')}}"></script>
+  {% endif }
   </div>
 </body>
 </html>
