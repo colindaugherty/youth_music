@@ -12,11 +12,11 @@ Order is-
 /* Body code */
 
 body {
-  background: linear-gradient(90deg, #650B3E, #0B6633);
+  background: linear-gradient( 90deg, slategrey, lightgrey 50% );
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 16pt;
-  color: #a3a3a3;
+  color: black;
   margin-left: auto;
   margin-right: auto;
 }
@@ -26,18 +26,18 @@ input, textarea, input:focus, textarea:focus, button {
   width: 70%;
   border: 0;
   outline: 0;
-  background: inherit;
-  color: white;
+  background: linear-gradient( 90deg, slategrey, lightgrey 80% );
+  color: black;
 }
 
 /* Link code */
 
 a:visited, a:link {
-  color: #a3a3a3;
+  color: #6d6d6d;
 }
 
 a:hover {
-  color: #7F7F7F;
+  color: #424242;
 }
 
 ul li {
@@ -209,24 +209,16 @@ Start the Media Queries
 /* Scrollbar */
 
 /* Let's get this party started */
-::-webkit-scrollbar {
-    width: 12px;
-}
 
-/* Track */
-::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(105,105,105,0.3);
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
+body::-webkit-scrollbar {
+    width: 1em;
 }
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-    background: rgba(105,105,105,0.8);
-    -webkit-box-shadow: inset 0 0 6px rgba(105,105,105,0.5);
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
 }
-::-webkit-scrollbar-thumb:window-inactive {
-	background: rgba(105,105,105,0.4);
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: black;
+  outline: 1px solid slategrey;
 }

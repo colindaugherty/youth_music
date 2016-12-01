@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block title %}Worship Home{% endblock %}
+{% block head %}
+  {{ super() }}
+{% endblock %}
+{% block content %}
+  <h1 id="title">Sunday Search Selections</h1>
+  <input id="searchInput" placeholder="Search for a song" autofocus="true" value="">
+  <ul id="results">
+    <li>One Result by Tests<br><a class="spotify_play_link" href="#">Testing link</a></li><br>
+    <li>Two Result by Tests<br><a class="spotify_play_link" href="#">Testing link</a></li><br>
+    <li>Three Result by Tests<br><a class="spotify_play_link" href="#">Testing link</a></li><br>
+    <li>Four Result by Tests<br><a class="spotify_play_link" href="#">Testing link</a></li><br>
+    <li>Five Result by Tests<br><a class="spotify_play_link" href="#">Testing link</a></li><br>
+  </ul>
+  <div id="tracks_already_suggested_section">
+    <h4>Already Suggested Tracks</h4>
+    <ul id="suggested_tracks">
+      <li>One</li>
+      <li>Two</li>
+      <li>Three</li>
+      <li>Four</li>
+      <li>Five</li>
+      <li>Six</li>
+      <li>Seven</li>
+      <li>Eight</li>
+      <li>Nine</li>
+      <li>Ten</li>
+    </ul>
+  </div>
+{% endblock %}
