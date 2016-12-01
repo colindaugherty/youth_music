@@ -26,18 +26,27 @@ input, textarea, input:focus, textarea:focus, button {
   width: 70%;
   border: 0;
   outline: 0;
-  background: linear-gradient( 90deg, slategrey, lightgrey 80% );
+  background: linear-gradient( 90deg, slategrey, lightgrey 70% );
   color: black;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:rgb(45, 44, 44);
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:rgb(45, 44, 44);
+   opacity:1;
 }
 
 /* Link code */
 
 a:visited, a:link {
-  color: #6d6d6d;
+  color: #505050;
 }
 
 a:hover {
-  color: #424242;
+  color: #2b2b2b;
 }
 
 ul li {
@@ -211,7 +220,7 @@ Start the Media Queries
 /* Let's get this party started */
 
 body::-webkit-scrollbar {
-    width: 1em;
+    width: 6px;
 }
  
 body::-webkit-scrollbar-track {
