@@ -4,10 +4,13 @@
   {% block head %}
   <meta charset="utf-8">
   <title>Youth Music--{% block title %}{% endblock %}</title>
+  <link rel="stylesheet" href="{{url_for('static', filename='style/offline.css')}}">
   <link rel="stylesheet" href="{{url_for('static', filename='style/pace.css')}}">
   <link rel="stylesheet" href="{{url_for('static', filename='style/style.css')}}">
   <link href='http://fonts.googleapis.com/css?family=Montserrat|Lato:400,700,400italic,900' rel='stylesheet' type='text/css'>
   <script src="https://use.fonticons.com/19d37d2e.js"></script>
+  <script src="{{url_for('static', filename='script/offline.min.js')}}"></script>
+  <script src="{{url_for('static', filename='script/pace.min.js')}}"></script>
   <meta name="description" content="Youth Music Voting, and worship voting.">
   <meta name="keywords" content="Youth, Voting, Music">
   {% endblock %}
@@ -15,8 +18,8 @@
 <body>
   <div id="content">{% block content %}{% endblock %}</div>
   <div id="footer"><p>Created by Colin Daugherty. If you need help, click <a href="{{url_for('help')}}">here</a>. If you want to make any feature requests, please email me.</p><p id="copyright">This is copyrighted by <a href="mailto:cdaug1228@gmail.com">Colin Daugherty</a> &copy 2016</p></div>
-  {% if cookie == false %}
-    <script src="{{url_for('static', filename='script/script.css')}}"></script>
+  {% if cookie == False %}
+    <script src="{{url_for('static', filename='script/script.js')}}"></script>
   {% endif }
   </div>
 </body>
