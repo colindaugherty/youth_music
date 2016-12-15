@@ -9,7 +9,7 @@ SPOTIPY_REDIRECT_URI = 'http://74.134.250.233/'
 SCOPE = 'user-read-email,user-follow-modify,streaming,user-top-read,playlist-read-collaborative,'
 CACHE = '.spotipyoauthcache'
 
-sp = spotipy.Spotipy()
+# sp = spotipy.Spotipy()
 
 app = Flask(__name__)
 
