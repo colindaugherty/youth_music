@@ -1,6 +1,6 @@
 from flask import Flask, flash, render_template, request, session, redirect, url_for, jsonify
-import spotipy
-from spotipy import oauth2
+# import spotipy
+# from spotipy import oauth2
 
 # #Variables
 # SP_client_id = 395c0c8b13eb418e9821084402274a16
