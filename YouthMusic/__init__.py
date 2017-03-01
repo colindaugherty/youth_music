@@ -2,14 +2,14 @@ from flask import Flask, flash, render_template, request, session, redirect, url
 import spotipy
 from spotipy import oauth2
 
-Variables
-SP_client_id = 395c0c8b13eb418e9821084402274a16
-SP_client_secret = a35b178c33ba49129168d6a16aeedf65
-SPOTIPY_REDIRECT_URI = 'http://74.134.250.233/'
-SCOPE = 'user-read-email,user-follow-modify,streaming,user-top-read,playlist-read-collaborative,'
-CACHE = '.spotipyoauthcache'
+# Variables
+# SP_client_id = 395c0c8b13eb418e9821084402274a16
+# SP_client_secret = a35b178c33ba49129168d6a16aeedf65
+# SPOTIPY_REDIRECT_URI = 'http://74.134.250.233/'
+# SCOPE = 'user-read-email,user-follow-modify,streaming,user-top-read,playlist-read-collaborative,'
+# CACHE = '.spotipyoauthcache'
 
-sp = spotipy.Spotipy()
+# sp = spotipy.Spotipy()
 
 app = Flask(__name__)
 
