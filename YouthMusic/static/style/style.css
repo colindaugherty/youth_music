@@ -11,6 +11,10 @@ Order is-
 
 /* Body code */
 
+.cdi {
+  padding: 1em;
+}
+
 body {
   background: linear-gradient( 90deg, slategrey, lightgrey 50% );
   font-family: 'Lato', sans-serif;
