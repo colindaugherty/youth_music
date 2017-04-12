@@ -1,0 +1,1 @@
+<div id="footer"><p>Created by Colin Daugherty. {% if page =! "help"} If you need help, click <a href="{{url_for('help')}}">here</a>.{% endif %} If you want to make any feature requests, please email me.</p><p id="copyright">This is copyrighted by <a href="mailto:cdaug1228@gmail.com">Colin Daugherty</a> &copy <div id="year">Can't find year</div></p></div>
