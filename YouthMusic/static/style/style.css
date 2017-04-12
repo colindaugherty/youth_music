@@ -15,6 +15,10 @@ Order is-
   padding: 1em;
 }
 
+.votes {
+  font-size: 12pt;
+}
+
 body {
   background: linear-gradient( 90deg, slategrey, lightgrey 50% );
   font-family: 'Lato', sans-serif;
